@@ -12,7 +12,6 @@ def valida_entrada(idade):
         return None
 
 def obter_idades():
-    """Obtém e valida as idades dos dois homens e duas mulheres."""
     idades = {}
     idades['homem1'] = valida_entrada(input("Digite a idade do primeiro homem: "))
     idades['homem2'] = valida_entrada(input("Digite a idade do segundo homem: "))
